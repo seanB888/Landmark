@@ -19,6 +19,12 @@ struct LandmarkRow: View {
             Text(landmark.name)
             
             Spacer()
+            
+            // star image for isFavorite
+            if landmark.isFavorite {
+                Image(systemName: "star.fill").renderingMode(.original)
+                    .font(.system(size: 16, weight: .regular))
+            }
         }
     }
 }
