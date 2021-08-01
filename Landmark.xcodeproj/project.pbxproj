@@ -12,6 +12,7 @@
 		87E21E3B26B65EDD0016EB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E21E3A26B65EDD0016EB8D /* Assets.xcassets */; };
 		87E21E3E26B65EDD0016EB8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E21E3D26B65EDD0016EB8D /* Preview Assets.xcassets */; };
 		87E21E4626B667F80016EB8D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E21E4526B667F80016EB8D /* CircleImage.swift */; };
+		87E21E4826B6D3580016EB8D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E21E4726B6D3580016EB8D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		87E21E3D26B65EDD0016EB8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87E21E3F26B65EDD0016EB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87E21E4526B667F80016EB8D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		87E21E4726B6D3580016EB8D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				87E21E3F26B65EDD0016EB8D /* Info.plist */,
 				87E21E3C26B65EDD0016EB8D /* Preview Content */,
 				87E21E4526B667F80016EB8D /* CircleImage.swift */,
+				87E21E4726B6D3580016EB8D /* MapView.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E21E3926B65EDB0016EB8D /* ContentView.swift in Sources */,
+				87E21E4826B6D3580016EB8D /* MapView.swift in Sources */,
 				87E21E3726B65EDB0016EB8D /* LandmarkApp.swift in Sources */,
 				87E21E4626B667F80016EB8D /* CircleImage.swift in Sources */,
 			);
