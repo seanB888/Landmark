@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import Combine
 
-// arrays of landmarks that initialize from landmarkData.json
-var landmarks: [Landmark] = load("landmarkData.json")
+final class ModelData: ObservableObject {
+    // arrays of landmarks that initialize from landmarkData.json
+   @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
